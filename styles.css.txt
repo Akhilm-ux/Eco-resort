@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+.hero {
+    padding: 40px;
+    background: url('resort.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Resort | Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Escape to Nature – Stay in Our Rustic Eco-Resort</h1>
+        <p>Experience off-grid living in beautiful mud & wood huts. **Coming Soon!**</p>
+    </header>
+
+    <section class="hero">
+        <h2>Be the First to Stay!</h2>
+        <p>Sign up now and get an exclusive **pre-booking discount.**</p>
+        <form id="preBookingForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <button type="submit">Get Early Access</button>
+        </form>
+    </section>
+
+    <section class="features">
+        <h2>Why Stay With Us?</h2>
+        <ul>
+            <li>🏡 **Handcrafted Mud & Wood Huts**</li>
+            <li>🌿 **100% Eco-Friendly & Solar Powered**</li>
+            <li>🔥 **Bonfire & Open Sky Dining**</li>
+            <li>🌄 **Exclusive Location in Nature**</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Travelers Say</h2>
+        <p>⭐⭐⭐⭐⭐ “Looks like a dream stay! Can’t wait to visit.” – Aman R.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Have Questions?</h2>
+        <p>Email us at: <b>info@eco-resort.com</b></p>
+    </section>
+
+    <script>
+        document.getElementById("preBookingForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Thank you! We’ll notify you about early booking.");
+        });
+    </script>
+
+</body>
+</html>
